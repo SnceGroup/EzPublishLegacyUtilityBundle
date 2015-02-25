@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ezsystems/ezpublish-kernel": "*",
+        "ezsystems/ezpublish-kernel": "*"
     },
     "autoload": {
         "psr-0": {"Snce\\EzPublishLegacyUtilityBundle": ""}
