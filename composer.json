@@ -1,0 +1,21 @@
+{
+    "name": "snce/ezpublish-legacy-utility-bundle",
+    "type": "symfony-bundle",
+    "description": "EzPublishLegacyUtilityBundle is an extension for eZ Publish 5+ providing extra legacy functionalities",
+    "keywords": ["ez", "ez publish", "utility"],
+    "license": "GPL v2.0 license.",
+    "authors": [
+        {
+            "name": "S'nce Group",
+            "homepage": "http://www.sncegroup.ch/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-kernel": "*",
+    }
+    "autoload": {
+        "psr-0": {"Snce\\EzPublishLegacyUtilityBundle": ""}
+    },
+    "target-dir": "Snce/EzPublishLegacyUtilityBundle"
+}
