@@ -1,6 +1,6 @@
 # SnceEzPublishLegacyUtilityBundle
 
-EzPublishLegacyUtilityBundle is an extension for eZ Publish 5+ helping the development
+EzPublishLegacyUtilityBundle is an extension for eZ Publish 5+ providing extra legacy functionalities
 
 ## Installation
 
@@ -67,6 +67,7 @@ Main purpose of the script is to avoid ```ezpublish_legacy/settings/override/sit
        }
 ```
 
+4) Add a site.ini.append.php.dist file in ezpublish_legacy/settings/override folder with your preferred settings_
 
 ## License
 
