@@ -7,7 +7,7 @@ EzPublishLegacyUtilityBundle is an extension for eZ Publish 5+ providing extra l
 1) To install EzPublishLegacyUtilityBundle run the following command
 
 ```
-$ php composer.phar require sncegroup/ezpublish-legacy-utility-bundle
+$ php composer.phar require snce/ezpublish-legacy-utility-bundle
 ```
 
 2) Enable EzSystemsCommentsBundle in the kernel
