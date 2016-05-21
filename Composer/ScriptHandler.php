@@ -7,7 +7,7 @@
 namespace Snce\EzPublishLegacyUtilityBundle\Composer;
 
 use Sensio\Bundle\DistributionBundle\Composer\ScriptHandler as DistributionBundleScriptHandler;
-use Composer\Script\CommandEvent;
+use Composer\Script\Event;
 use Symfony\Component\Yaml\Parser;
 
 class ScriptHandler extends DistributionBundleScriptHandler
@@ -16,9 +16,9 @@ class ScriptHandler extends DistributionBundleScriptHandler
      * Deploy a proper settings/override/site.ini using settings/override/site.ini.dist as a template
      * Only main DB parameters (Host,Port,User,Password,Database) are replaced using the Symfony parameters
      *
-     * @param $event CommandEvent A instance
+     * @param $event Event A instance
      */
-    public static function siteIniUpdate( CommandEvent $event )
+    public static function siteIniUpdate(Event $event)
     {
         $extras = $event->getComposer()->getPackage()->getExtra();
 
