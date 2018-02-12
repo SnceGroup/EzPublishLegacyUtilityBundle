@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "EzPublishLegacyUtilityBundle is an extension for eZ Publish 5+ providing extra legacy functionalities",
     "keywords": ["ez", "ez publish", "utility"],
-    "license": "GPL v2.0 license.",
+    "license": "MIT",
     "authors": [
         {
             "name": "S'nce Group",
